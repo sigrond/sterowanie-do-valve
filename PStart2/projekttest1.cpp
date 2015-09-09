@@ -94,7 +94,7 @@ if (ClientSocket == INVALID_SOCKET) {
     printf("accept failed: %d\n", WSAGetLastError());
     closesocket(ListenSocket);
     WSACleanup();
-    system("pause");
+    //system("pause");
     return 1;
 }
 
@@ -269,6 +269,6 @@ if (iResult == SOCKET_ERROR) {
 }
 
 }
-    system("PAUSE");
+    //system("PAUSE");
     return EXIT_SUCCESS;
 }
